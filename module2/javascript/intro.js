@@ -1,20 +1,20 @@
 //printing
 console.log("this is spartaa!");
 // declaring variables
-char='a';
+let char='a';
 console.log(char);
-bool = true;
+let bool = true;
 console.log(bool);
-num=34;
+let num=32;
 console.log(num);
 //for loop
 for(let i=1;i<10;i++){
     console.log(i);
 }
 //prime
-bool =true;
-let num=23;
-for(let i=2;i<23;i++){
+
+
+for(let i=2;i<num;i++){
     if(num%i==0){
       bool =false;
       break;  
