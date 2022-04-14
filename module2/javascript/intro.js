@@ -1,30 +1,23 @@
-console.log("Hello world!")
-// printing pepcoders
-console.log("pepcoders");
-//declaring variables
-let num=45;
-console.log(num)
-let char='a';
-console.log(char)
-let str="this is spartaa!";
-console.log(str);
-let bool=true;
+//printing
+console.log("this is spartaa!");
+// declaring variables
+char='a';
+console.log(char);
+bool = true;
 console.log(bool);
-
-// using for loop in javascript
-for(let i=1;i<=5;i++){
+num=34;
+console.log(num);
+//for loop
+for(let i=1;i<10;i++){
     console.log(i);
 }
-
-//Is prime question
-let a=322;
-for(let i=2;i*i<=a;i++){
-    if(a%i==0){
-        console.log("not prime");
-        break;
-    }
-    else{
-        console.log("prime");
-        break;
+//prime
+bool =true;
+let num=23;
+for(let i=2;i<23;i++){
+    if(num%i==0){
+      bool =false;
+      break;  
     }
 }
+console.log(bool);
